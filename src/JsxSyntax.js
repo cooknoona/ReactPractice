@@ -10,11 +10,11 @@ const inlineStyle = {
 };
 
 const JsxSyntax = () => {
-  const name = "리엑트";
+  const name = "리액트";
   const member = false;
   return (
     <>
-      {name === "리엑트" ? <h1 style={inlineStyle}>리엑트를 공부 하겠습니다.</h1> : <h1 style={inlineStyle}>자바스크립트를 공부 하겠습니다.</h1>}
+      {name === "리액트" ? <h1 style={inlineStyle}>리액트를 공부 하겠습니다.</h1> : <h1 style={inlineStyle}>자바스크립트를 공부 하겠습니다.</h1>}
       {member && (
         <>
           <h1>환영합니다. 고객님..</h1>

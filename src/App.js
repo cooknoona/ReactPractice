@@ -3,6 +3,8 @@ import JsxSyntax from "./JsxSyntax";
 import GreetingComponent from "./GreetingComponent";
 import WelcomeProps from "./WelcomeProps";
 import Articles from "./Articles";
+import MyComponent from "./MyComponent";
+import BoxComponent from "./BoxComponent";
 
 function App() {
   const getName = "이국형";
@@ -18,6 +20,11 @@ function App() {
       <WelcomeProps name="박명수" job="아이돌" addr="서울특별시 강남구" isAdult={true} />
       <hr />
       <Articles />
+      <hr />
+      <MyComponent name="홍길동" age={21} />
+      <hr />
+      <BoxComponent>첫번째 박스 입니다.</BoxComponent>
+      <BoxComponent>두번째 박스 입니다.</BoxComponent>
     </>
   );
 }
