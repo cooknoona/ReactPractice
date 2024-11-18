@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import JsxSyntax from "./JsxSyntax";
+import GreetingComponent from "./GreetingComponent";
+import WelcomeProps from "./WelcomeProps";
+import Articles from "./Articles";
 
 function App() {
+  const getName = "이국형";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>여기는 App.js 입니다.</h1>
+      <JsxSyntax />
+      <hr />
+      <GreetingComponent />
+      <hr />
+      <WelcomeProps name={getName} job="백수" addr="경기도 파주시" isAdult={true} />
+      <hr />
+      <WelcomeProps name="박명수" job="아이돌" addr="서울특별시 강남구" isAdult={true} />
+      <hr />
+      <Articles />
+    </>
   );
 }
 
