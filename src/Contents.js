@@ -1,11 +1,3 @@
-import styled from "styled-components";
-
-const HeadStyle = styled.h1`
-  font-size: 2em;
-  color: royalblue;
-  text-align: center;
-`;
-
 const HeadLine = ({ title }) => {
   return (
     <>
