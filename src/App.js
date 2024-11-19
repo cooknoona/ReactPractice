@@ -5,6 +5,13 @@ import WelcomeProps from "./WelcomeProps";
 import Articles from "./Articles";
 import MyComponent from "./MyComponent";
 import BoxComponent from "./BoxComponent";
+import Counter from "./ClassComponent";
+import Say from "./Say";
+import Clock from "./Clock";
+import EventHandler from "./EventHandler";
+import DropDownComponent from "./DropDownComponent";
+import RadioButton from "./RadioButton";
+import TableMap from "./TableMap";
 
 function App() {
   const getName = "이국형";
@@ -25,6 +32,20 @@ function App() {
       <hr />
       <BoxComponent>첫번째 박스 입니다.</BoxComponent>
       <BoxComponent>두번째 박스 입니다.</BoxComponent>
+      <hr />
+      <Counter />
+      <hr />
+      <Say />
+      <hr />
+      <Clock />
+      <hr />
+      <EventHandler />
+      <hr />
+      <DropDownComponent />
+      <hr />
+      <RadioButton />
+      <hr />
+      <TableMap />
     </>
   );
 }
