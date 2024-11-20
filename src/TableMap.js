@@ -49,7 +49,7 @@ const TableMap = () => {
   useEffect(() => {
     // 이때 서버와 비동기 통신이 일어남
     setMemberData(responseData);
-  }, []); // 의존성 주입으로 인해 렌더링 조건에 만족하고 useEffect가 호출됨
+  }, []); // 의존성 주입으로 인해 Mount 후에 렌더링 조건에 만족하고 useEffect가 호출됨
 
   const handleTableRowClick = (item) => {
     console.log(item);
