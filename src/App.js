@@ -15,6 +15,10 @@ import TableMap from "./TableMap";
 import UserList from "./UserList";
 import TodoList from "./TodoList";
 import UseInfo from "./UseInfo";
+import ReducerState from "./ReducerState";
+import Average from "./Average";
+import CreateRef from "./useRefPractice";
+import InnerValueMaintainence from "./useRefPractice2";
 
 function App() {
   const getName = "이국형";
@@ -53,8 +57,12 @@ function App() {
       <UserList />
       <hr />
       <TodoList />
-      <hr /> */}
+      <hr />
       <UseInfo />
+      <ReducerState /> */}
+      {/* <Average /> */}
+      {/* <CreateRef /> */}
+      <InnerValueMaintainence />
     </>
   );
 }
